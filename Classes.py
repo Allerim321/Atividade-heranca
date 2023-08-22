@@ -1,19 +1,59 @@
 class Aves:
     def botarOvo(self):
-        print ("É um animal ovíparo.")
+        print ("É um animal ovíparo")
 
     def pena(self):
-        print ("Essa ave possui penas")
+        print ("Possui penas")
 
     def bico(self):
-        print ("Essa ave possui um bico, não possui dentes")
+        print ("Possui um bico, não possui dentes")
 
 class Voar (Aves):
     def voar(self):
-        print ("Essa ave possui asas e é capaz de voar")
+        print ("Possui asas e é capaz de voar")
 
 
 class NãoVoar (Aves):
     def nãovoar(self):
-        print ("Essa ave ão é capaz de voar")
+        print ("Não é capaz de voar")
 
+class Aguia (Aves):
+    def voar(self):
+        print("")
+
+class Albatroz (Aves):
+    def voar(self):
+        print("")
+
+class Avestruz (Aves):
+    def voar(self ):
+        print()
+
+class Beija_flor (Aves):
+    def voar(self):
+        print("")
+
+class Bico_de_Tamanco(Aves):
+    def voar(self):
+        print("")
+
+class Casuar(Aves):
+    def voar(self):
+        print("")
+
+class Cegonha(Aves):
+    def voar(self):
+        print("")
+
+class Codorna(Aves):
+    def voar(self):
+        print("")
+
+class Coruja(Aves):
+    def voar(self):
+        print("")
+
+
+class Ema (Aves):
+    def voar(self):
+        print("")        
