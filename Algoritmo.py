@@ -26,6 +26,7 @@ def main():
             print("[19] - Pica-Pau")
             print("[20] - Pinguim")
             print("[21] - Tucano")
+            print("[22] - Sair")
             menu=input("Digite o número correspondente à ave que gostaria de visitar.")
             
             match menu:
@@ -71,8 +72,10 @@ def main():
                     print("")
                 case 21:
                     print("")
+                case 22:
+                    exit()
                 case _:
-                    print ("Opção inválida.")            
+                    print ("Opção inválida.")        
         
         except:
             print("Erro, opção inválida. Tente novamente.")
