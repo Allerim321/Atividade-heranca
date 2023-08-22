@@ -12,6 +12,7 @@ class Voar (Aves):
     def voar(self):
         print ("Essa ave possui asas e é capaz de voar")
 
+
 class NãoVoar (Aves):
     def nãovoar(self):
         print ("Essa ave ão é capaz de voar")
