@@ -31,4 +31,28 @@ class Avestruz (Aves):
 class Beija_flor (Aves):
     def voar(self):
         print("")
-        
+
+class Bico_de_Tamanco(Aves):
+    def voar(self):
+        print("")
+
+class Casuar(Aves):
+    def voar(self):
+        print("")
+
+class Cegonha(Aves):
+    def voar(self):
+        print("")
+
+class Codorna(Aves):
+    def voar(self):
+        print("")
+
+class Coruja(Aves):
+    def voar(self):
+        print("")
+
+
+class Ema (Aves):
+    def voar(self):
+        print("")        
