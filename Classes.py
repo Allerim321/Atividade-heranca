@@ -17,19 +17,20 @@ class NãoVoar (Aves):
     def nãovoar(self):
         print ("Não é capaz de voar")
 
-class Aguia (Aves):
+
+class Aguia(Aves):
     def voar(self):
         print("")
 
-class Albatroz (Aves):
+class Albatroz(Aves):
     def voar(self):
         print("")
 
-class Avestruz (Aves):
+class Avestruz(Aves):
     def voar(self ):
         print()
 
-class Beija_flor (Aves):
+class Beija_flor(Aves):
     def voar(self):
         print("")
 
@@ -53,7 +54,6 @@ class Coruja(Aves):
     def voar(self):
         print("")
 
-
-class Ema (Aves):
+class Ema(Aves):
     def voar(self):
         print("")        
