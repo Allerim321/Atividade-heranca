@@ -4,7 +4,9 @@ import os
 def main():
     a = 1
     while a == 1:
-        try:            
+        # Tratamento de erro
+        try:    
+            # Opções de passáros disponiveis       
             print("Bem vindo ao Birdspédia.")
             print("[01] - Águia")
             print("[02] - Albatroz")
@@ -28,12 +30,15 @@ def main():
             print("[20] - Pinguim")
             print("[21] - Tucano")
             print("[22] - Sair")
+            # Input onde o usuário escolhe o passáro
             menu=input("Digite o número correspondente à ave que gostaria de visitar. \n -")
             
             match menu:
                 case "1":
                     ("Aqui estão algumas informações sobre águias para você! \n")
+                    # Instanciando o objeto
                     aguia = Aguia()
+                    # Chamando os metodos com as informações do passáro
                     aguia.botarOvo()
                     aguia.pena()
                     aguia.bico()
@@ -266,6 +271,7 @@ def main():
                 case _:
                     print ("Opção inválida.")        
         
+        # Tratamento de erro, ou seja, caso ocorra um erro fazer:
         except:
             print("Erro, opção inválida. Tente novamente.")
             os.system("pause")
