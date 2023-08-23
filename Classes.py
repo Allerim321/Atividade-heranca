@@ -89,7 +89,7 @@ class Bico_de_Tamanco(NãoVoar):
     def informações(self):
        print("O bico de tamanco é uma ave encontrada principalmente na América do Sul, notável pelo seu bico largo e chato, semelhante à forma de um tamanco. Vive em ambientes aquáticos e se alimenta filtrando pequenos organismos da água.")
 
-class Avestruz (Voar):
+class Avestruz (NãoVoar):
     def informações(self):
        print("O avestruz é a maior ave do mundo, conhecida por sua incapacidade de voar, pernas longas e velocidade terrestre impressionante. Originário da África, possui plumagem macia e é adaptado a ambientes áridos.")
 
