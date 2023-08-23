@@ -1,7 +1,9 @@
 from Classes import *
+import os
 
 def main():
-    while True:
+    a = 1
+    while a == 1:
         try:            
             print("Bem vindo ao Birdspédia.")
             print("[01] - Águia")
@@ -26,160 +28,245 @@ def main():
             print("[20] - Pinguim")
             print("[21] - Tucano")
             print("[22] - Sair")
-            menu=input("Digite o número correspondente à ave que gostaria de visitar.")
+            menu=input("Digite o número correspondente à ave que gostaria de visitar. \n -")
             
             match menu:
-                case 1:
+                case "1":
+                    ("Aqui estão algumas informações sobre águias para você! \n")
                     aguia = Aguia()
                     aguia.botarOvo()
                     aguia.pena()
                     aguia.bico()
                     aguia.voar()
                     aguia.informações()
-                case 2:
+                    os.system("pause")
+                    os.system("cls")
+                case "2":
+                    ("Aqui estão algumas informações sobre albatroz para você! \n")
                     albatroz = Albatroz()
                     albatroz.botarOvo()
                     albatroz.pena()
                     albatroz.bico()
                     albatroz.voar()
                     albatroz.informações()
-                case 3:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "3":
+                    ("Aqui estão algumas informações sobre avestruz para você! \n")
                     avestruz = Avestruz()
                     avestruz.botarOvo()
                     avestruz.pena()
                     avestruz.bico()
                     avestruz.nãovoar()
                     avestruz.informações()
-                case 4:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "4":
+                    ("Aqui estão algumas informações sobre beija-flores para você! \n")
                     beijaflor = BeijaFlor()
                     beijaflor.botarOvo()
                     beijaflor.pena()
                     beijaflor.bico()
                     beijaflor.voar()
                     beijaflor.informações()
-                case 5:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "5":
+                    ("Aqui estão algumas informações sobre bicos de tamanco para você! \n")
                     bicotamanco = Bico_de_Tamanco()
                     bicotamanco.botarOvo()
                     bicotamanco.pena()
                     bicotamanco.bico()
                     bicotamanco.nãovoar()
                     bicotamanco.informações()
-                case 6:
+                    os.system("pause")
+                    os.system("cls")
+                    
+                case "6":
+                    ("Aqui estão algumas informações sobre causares para você! \n")
                     causar = Casuar()
                     causar.botarOvo()
                     causar.pena()
                     causar.bico()
                     causar.nãovoar()
                     causar.informações()
-                case 7:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "7":
+                    ("Aqui estão algumas informações sobre cegonhas para você! \n")
                     cegonha = Cegonha()
                     cegonha.botarOvo()
                     cegonha.pena()
                     cegonha.bico()
                     cegonha.voar()
                     cegonha.informações()
-                case 8:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "8":
+                    ("Aqui estão algumas informações sobre codornas para você! \n")
                     codorna = Codorna()
                     codorna.botarOvo()
                     codorna.pena()
                     codorna.bico()
                     codorna.nãovoar()
                     codorna.informações()
-                case 9:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "9":
+                    ("Aqui estão algumas informações sobre corujas para você! \n")
                     coruja = Coruja()
                     coruja.botarOvo()
                     coruja.pena()
                     coruja.bico()
                     coruja.voar()
                     coruja.informações()
-                case 10:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "10":
+                    ("Aqui estão algumas informações sobre emas para você! \n")
                     ema = Ema()
                     ema.botarOvo()
                     ema.pena()
                     ema.bico()
                     ema.nãovoar()
                     ema.informações()
-                case 11:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "11":
+                    ("Aqui estão algumas informações sobre falcões para você! \n")
                     falcão = Falcão()
                     falcão.botarOvo()
                     falcão.pena()
                     falcão.bico()
                     falcão.voar()
                     falcão.informações()
-                case 12:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "12":
+                    ("Aqui estão algumas informações sobre gaivotas para você! \n")
                     gaivota = Gaivota()
                     gaivota.botarOvo()
                     gaivota.pena()
                     gaivota.bico()
                     gaivota.voar()
                     gaivota.informações()
-                case 13:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "13":
+                    ("Aqui estão algumas informações sobre galinhas para você! \n")
                     galina = Galinha()
                     galina.botarOvo()
                     galina.pena()
                     galina.bico()
                     galina.nãovoar()
-                    galina.informações() 
-                case 14:
+                    galina.informações()
+                    os.system("pause")
+                    os.system("cls")
+
+                case "14":
+                    ("Aqui estão algumas informações sobre gaviões para você! \n")
                     gavião = Gavião()
                     gavião.botarOvo()
                     gavião.pena()
                     gavião.bico()
                     gavião.voar()
                     gavião.informações()
-                case 15:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "15":
+                    ("Aqui estão algumas informações sobre kiwis para você! \n")
                     kiwi = Kiwi()
                     kiwi.botarOvo()
                     kiwi.pena()
                     kiwi.bico()
                     kiwi.nãovoar()
                     kiwi.informações() 
-                case 16:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "16":
+                    ("Aqui estão algumas informações sobre patos para você! \n")
                     pato = Pato()
                     pato.botarOvo()
                     pato.pena()
                     pato.bico()
                     pato.voar()
                     pato.informações()
-                case 17:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "17":
+                    ("Aqui estão algumas informações sobre pavões para você! \n")
                     pavão = Pavão()
                     pavão.botarOvo()
                     pavão.pena()
                     pavão.bico()
                     pavão.nãovoar()
-                    pavão.informações ()
-                case 18:
+                    pavão.informações()
+                    os.system("pause")
+                    os.system("cls")
+
+                case "18":
+                    ("Aqui estão algumas informações sobre pelicanos para você! \n")
                     pelicano = Pelicano()
                     pelicano.botarOvo()
                     pelicano.pena()
                     pelicano.bico()
                     pelicano.voar()
                     pelicano.informações()
-                case 19:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "19":
+                    ("Aqui estão algumas informações sobre pica-paus para você! \n")
                     picapau = PicaPau()
                     picapau.botarOvo()
                     picapau.pena()
                     picapau.bico()
                     picapau.voar()
                     picapau.informações()
-                case 20:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "20":
+                    ("Aqui estão algumas informações sobre pinguins para você! \n")
                     pinguim = Pinguim()
                     pinguim.botarOvo()
                     pinguim.pena()
                     pinguim.bico()
                     pinguim.nãovoar()
-                    pinguim.informações() 
-                case 21:
+                    pinguim.informações()
+                    os.system("pause")
+                    os.system("cls")
+
+                case "21":
+                    ("Aqui estão algumas informações sobre tucanos para você! \n")
                     tucano = Tucano()
                     tucano.botarOvo()
                     tucano.pena()
                     tucano.bico()
                     tucano.voar()
                     tucano.informações()
-                case 22:
+                    os.system("pause")
+                    os.system("cls")
+
+                case "22":
                     exit()
                 case _:
                     print ("Opção inválida.")        
         
         except:
             print("Erro, opção inválida. Tente novamente.")
+            os.system("pause")
+            os.system("cls")
