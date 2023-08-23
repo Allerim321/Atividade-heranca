@@ -1,6 +1,6 @@
-# Classe pai, onde estão contidas as informações que são comuns a todos os tipos de passáros
+# Classe pai, onde estão contidas as informações que são comuns a todos os tipos de pássaros
 class Aves:
-# Metodo com uma informação que é comum a todos os passáros 
+# Metodo com uma informação que é comum a todos os pássaros 
     def botarOvo(self):
         print ("É um animal ovíparo")
 
@@ -10,19 +10,19 @@ class Aves:
     def bico(self):
         print ("Possui um bico, não possui dentes")
 
-# Classe que contem as similaridades apenas dos passáros que voam, a classe "Aves" entre parenteses significa que ela foi herdada pela classe "Voar", sendo assim a classe "Voar" tem seus metodos proprios mais os metodos da classe "Aves"
+# Classe que contem as similaridades apenas dos pássaros que voam, a classe "Aves" entre parenteses significa que ela foi herdada pela classe "Voar", sendo assim a classe "Voar" tem seus metodos proprios mais os metodos da classe "Aves"
 class Voar (Aves):
     def voar(self):
         print ("Possui asas e é capaz de voar")
 
-# Classe que contem as similaridades apenas dos passáros que não voam, a classe "Aves" entre parenteses significa que ela foi herdada pela classe "NãoVoar", sendo assim a classe "NãoVoar" tem seus metodos proprios mais os metodos da classe "Aves"
+# Classe que contem as similaridades apenas dos pássaros que não voam, a classe "Aves" entre parenteses significa que ela foi herdada pela classe "NãoVoar", sendo assim a classe "NãoVoar" tem seus metodos proprios mais os metodos da classe "Aves"
 class NãoVoar (Aves):
     def nãovoar(self):
         print ("Não é capaz de voar")
 
 # Classes para cada passáros que decidimos colocar, essas classes herdam as classes "Voar" ou "NãoVoar" de acordo com qual característica elas possuem e por conseguinte herdam a classe "Aves"
 class Aguia(Voar):
-# Metodo que contem breves informações sobre o passáro
+# Metodo que contem breves informações sobre o pássaro
    def informações(self):
        print("As águias são aves de rapina, conhecidas por sua grande envergadura, visão aguçada, força e agilidade no voo. As águias têm um significado cultural significativo em muitas sociedades. Por exemplo, a águia careca é um símbolo nacional dos Estados Unidos, e são frequentemente associadas a símbolos de poder, liberdade e nobreza.")
 

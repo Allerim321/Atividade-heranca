@@ -6,7 +6,7 @@ def main():
     while a == 1:
         # Tratamento de erro
         try:    
-            # Opções de passáros disponiveis       
+            # Opções de pássaros disponiveis       
             print("Bem vindo ao Birdspédia.")
             print("[01] - Águia")
             print("[02] - Albatroz")
@@ -38,7 +38,7 @@ def main():
                     ("Aqui estão algumas informações sobre águias para você! \n")
                     # Instanciando o objeto
                     aguia = Aguia()
-                    # Chamando os metodos com as informações do passáro
+                    # Chamando os metodos com as informações do pássaro
                     aguia.botarOvo()
                     aguia.pena()
                     aguia.bico()
